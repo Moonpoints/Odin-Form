@@ -70,7 +70,7 @@ flex-direction: row;
 .user-info {
     font-size: .8em;
 display: grid;
-grid-template-columns: 2fr 4fr;
+grid-template-columns: 2fr 7fr;
 }
 
 .inputs { 
@@ -84,7 +84,7 @@ input {
     padding: 5px;
     margin-bottom: 30px;
     margin-top: 1px;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #6A3DBF;
     width: 300px;
 }
