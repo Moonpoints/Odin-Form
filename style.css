@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Novox Varsity Monogram';
+    src: url(NovoxVarsityMonogram.ttf);
+}
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+body {display: flex;
+flex-direction: row;}
+
+
+
+.background-container { 
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 35vw;
+    background: center/cover url(https://images.unsplash.com/photo-1677029907981-e9a44fb7409a?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   
+}
+.logo-container {
+    height: 1.3em;
+    margin: 7em 0em;
+    font-family: 'Novox Varsity Monogram';
+    font-size: 3.5rem;
+    color: #FF99CC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo-img {
+   height: 4em;
+   
+}
+
+.logo-footer{
+    color: #FF99CC;
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 10%
+    
+}
+
+
+
+.form-container {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 70vw;
+    justify-content: center;
+    background-color:  rgba(107,20,150,0.47)
+    
+
+}
+.form-header {
+    font-size: 1.5em;
+    padding: 2.3em;
+    font-weight: bold;
+   
+}
+
+.gimmie {
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.user-info {font-size: .8em;
+display: grid;
+grid-template-columns: 2fr 4fr;
+
+
+}
+.inputs { font-size: .9em;
+font-weight: bold; }
+input {
+    border: 2px solid #6A3DBF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 1px;
+    font-size: 1em;
+    color: #6A3DBF;
+    width: 300px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #FF99CC;
+    box-shadow: 0 0 5px #FF99CC;
+}
+
+.password:invalid {
+    background-color: rgba(255,92,173,0.26);
+    border: 2px solid #FF00FF;
+
+}
+   
+
+.form-box {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fad6f5;                                              
+   width: 73vw;
+   padding: 40px; 
+   display: flex;
+    flex-direction: column;
+   }
+
+   button { background-color: #6A3DBF;
+color: #FF99CC;
+border: 10px solid #6A3DBF;
+border-radius: 5px;
+font-size: 20px;
+}
+
+button:hover {
+    background-color: #FF99CC;
+    color: #6A3DBF;
+    border: 10px solid #FF99CC; 
+    
+}
+
+.clicky {padding: 2.3em;
+font-size: 1.1rem;
+margin-bottom: 3em;}
+
+.current {margin-top: 2em;}
+
+a {text-decoration: none;
+color: #FF00FF;}
+
+a:hover {color: #a32993;
+    text-decoration: underline;
+}
+
+a:visited {color: #4713a7}
+
+
