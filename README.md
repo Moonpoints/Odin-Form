@@ -1,2 +1,2 @@
 # Odin-Form
-Sign up from project for the Odin Project
+Sign up form project for the Odin Project
