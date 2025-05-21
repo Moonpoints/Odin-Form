@@ -18,8 +18,8 @@ flex-direction: row;}
    
 }
 .logo-container {
-    height: 1.3em;
-    margin: 7em 0em;
+    height: 100%;
+    margin-bottom: 8em;
     font-family: 'Novox Varsity Monogram';
     font-size: 3.5rem;
     color: #FF99CC;
@@ -27,6 +27,7 @@ flex-direction: row;}
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 
 }
 
@@ -40,9 +41,9 @@ flex-direction: row;}
     color: #FF99CC;
     font-size: 1rem;
     font-family: sans-serif;
-    position: absolute;
-    bottom: 0;
-    left: 10%
+    text-align: center;
+    overflow: visible;
+    margin-bottom: 10px
     
 }
 
